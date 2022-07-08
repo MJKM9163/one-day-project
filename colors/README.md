@@ -1,6 +1,6 @@
 # 마우스를 움직여 배경색을 변경!
 
-### :sparkles: 주의 !! 눈이 아플 수 있습니다!! :sparkles: 
+### :sparkles::rotating_light: 주의 !! 눈이 아플 수 있습니다!! :rotating_light::sparkles: 
 
 css를 공부하다 간단하게 만들어 보았습니다.
 
