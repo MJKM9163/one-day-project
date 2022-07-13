@@ -39,8 +39,7 @@ function App() {
       // 옵션이 있을 경우만 넘어감
       let [gitCommand, messageText] = v.split(optionCheck);
       let [git, command] = gitCommand.split(" ");
-      //console.log(git);
-      //console.log(command);
+
       console.log(messageText);
 
       setCommit({ file: [...commit.file, [...staging]], commitMessage: [...commit.commitMessage, messageText] });
