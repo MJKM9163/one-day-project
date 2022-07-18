@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
 interface branchType {
@@ -42,7 +42,10 @@ function App() {
 
       console.log(messageText);
 
-      setCommit({ file: [...commit.file, [...staging]], commitMessage: [...commit.commitMessage, messageText] });
+      setCommit({
+        file: [...commit.file, [...staging]],
+        commitMessage: [...commit.commitMessage, messageText],
+      });
       setStaging([]);
       // commit code 작성
     }
