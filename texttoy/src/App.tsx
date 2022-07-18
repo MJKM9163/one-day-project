@@ -40,8 +40,6 @@ function App() {
       let [gitCommand, messageText] = v.split(optionCheck);
       let [git, command] = gitCommand.split(" ");
 
-      // console.log(messageText);
-
       setCommit({
         file: [...commit.file, [...staging]],
         commitMessage: [...commit.commitMessage, messageText],
