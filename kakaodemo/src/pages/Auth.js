@@ -1,8 +1,8 @@
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import qs from "qs";
-import { useNavigate } from "react-router-dom";
-//import { CLIENT_ID, CLIENT_SECRET, REDIRECT_URI } from "../keys";
+
 const Auth = () => {
   const code = new URL(window.location.href).searchParams.get("code");
 

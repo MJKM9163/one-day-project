@@ -9,5 +9,5 @@ const Home = () => {
     </div>
   );
 };
-// /images/resources/images/potato.png
+
 export default Home;
